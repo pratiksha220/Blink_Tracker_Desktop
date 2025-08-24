@@ -1,0 +1,6 @@
+PyQt6
+psutil
+opencv-python
+mediapipe
+numpy
+requests
