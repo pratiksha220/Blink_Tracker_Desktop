@@ -13,11 +13,33 @@ It allows users to log in or register, track eye blinks in real-time, and sync d
 ##  Installation
 
 -  **Clone the repository**
-  ```bash
--  git clone https://github.com/pratiksha220/Blink_Tracker_Desktop.git
--  cd Blink_Tracker_Desktop
-
+  ```
+  git clone https://github.com/pratiksha220/Blink_Tracker_Desktop.git
+  cd Blink_Tracker_Desktop
+```
 -  **Install Dependencies**
--  pip install -r requirements.txt
+ ```
+  pip install -r requirements.txt
+```
+-  **Run app**
+  ```
+  python main.py
+```
+##  Requirements
 
+-  Dependencies are listed in requirements.txt
+
+##  Tech Stack
+
+**Python 3** - Core programming language
+**PyQt6** - Desktop GUI framework
+**OpenCV (cv2)** - Capturing webcam frames & image processing
+**MediaPipe** - Real-time blink / face landmark detection
+**NumPy** - Efficient numerical operations
+**Requests** - API calls to backend
+**Psutil** - System resource monitoring (if used for stats/logging)
+**SQLite3 (via local_queue.py)** - Local storage & offline sync
+
+##  Backend and Dashboard
+-  Hosted on Railway
 
