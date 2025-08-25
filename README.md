@@ -31,14 +31,14 @@ It allows users to log in or register, track eye blinks in real-time, and sync d
 
 ##  Tech Stack
 
-**Python 3** - Core programming language
-**PyQt6** - Desktop GUI framework
-**OpenCV (cv2)** - Capturing webcam frames & image processing
-**MediaPipe** - Real-time blink / face landmark detection
-**NumPy** - Efficient numerical operations
-**Requests** - API calls to backend
-**Psutil** - System resource monitoring (if used for stats/logging)
-**SQLite3 (via local_queue.py)** - Local storage & offline sync
+-  **Python 3** - Core programming language
+-  **PyQt6** - Desktop GUI framework
+-  **OpenCV (cv2)** - Capturing webcam frames & image processing
+-  **MediaPipe** - Real-time blink / face landmark detection
+-  **NumPy** - Efficient numerical operations
+-  **Requests** - API calls to backend
+-  **Psutil** - System resource monitoring (if used for stats/logging)
+-  **SQLite3 (via local_queue.py)** - Local storage & offline sync
 
 ##  Backend and Dashboard
 -  Hosted on Railway
