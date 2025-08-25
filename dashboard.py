@@ -15,9 +15,8 @@ import requests
 from local_queue import enqueue
 from sync_worker import SyncWorker
 
-# ====== SET THIS TO YOUR RAILWAY BACKEND URL (no trailing slash) ======
 API_BASE_URL = "https://web-production-f83f0.up.railway.app"
-# ======================================================================
+
 
 class DashboardWindow(QWidget):
     def __init__(self, user_email=None, token =None):
@@ -87,7 +86,7 @@ class DashboardWindow(QWidget):
         
     def _set_sync_status(self, text: str):
         # Called by SyncWorker thread (Qt allows updating labels from main thread;
-        # but simple setText is usually fine; if you see warnings, use signals)
+        
         self.sync_status.setText(f"Sync: {text}")
 
     def update_frame(self):
