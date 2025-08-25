@@ -13,6 +13,7 @@ It allows users to log in or register, track eye blinks in real-time, and sync d
 ##  Installation
 
 -  **Clone the repository**
+  ```bash
 -  git clone https://github.com/pratiksha220/Blink_Tracker_Desktop.git
 -  cd Blink_Tracker_Desktop
 
