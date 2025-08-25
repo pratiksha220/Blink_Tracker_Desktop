@@ -5,9 +5,9 @@ import requests
 from local_queue import init_db, fetch_batch, delete_ids
 from requests.exceptions import RequestException
 
-# ====== SET THIS TO YOUR RAILWAY BACKEND URL (no trailing slash) ======
+
 API_BASE_URL = "https://web-production-f83f0.up.railway.app"
-# ======================================================================
+
 
 CHECK_INTERVAL = 5  # seconds between sync attempts
 BATCH_SIZE =20
