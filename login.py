@@ -8,9 +8,8 @@ os.add_dll_directory(mp_dir)
 from dashboard import DashboardWindow
 import requests
 
-# ====== SET THIS TO YOUR RAILWAY BACKEND URL (no trailing slash) ======
 API_BASE_URL = "https://web-production-f83f0.up.railway.app"
-# ======================================================================
+
 
 class LoginWindow(QWidget):
     def __init__(self):
